@@ -1,0 +1,12 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Greeting {
+  id: String!
+  greeting: String!
+}
+
+type Query {
+  greeting: Greeting!
+}
